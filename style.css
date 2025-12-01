@@ -122,3 +122,54 @@ body {
 
 .whatsapp-btn:hover { background: #5ff28b; }
 
+/* SERVIÇOS  */
+.catalogo {
+    padding: 120px 0 60px;
+    text-align: center;
+    background: radial-gradient(circle,#003638,#001112);
+}
+
+.titulo-catalogo {
+    font-size: 2.3rem;
+    color: #7ee6ff;
+    margin-bottom: 40px;
+}
+
+.produtos-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+}
+
+.produto {
+    background: #0b0f11;
+    border: 1px solid #1f3c40;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    transition: .3s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #00d4ff33;
+}
+
+.produto img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.produto h3 { margin-bottom: 10px; color: #c6f6ff; }
+
+.produto p {
+    font-size: 1rem;
+    color: #a7d9d9;
+}
+
