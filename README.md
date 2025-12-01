@@ -1,4 +1,4 @@
-📘 Infinity Phone – Página Institucional
+📘 Infinity Phone –
 
 Bem-vindo ao repositório da Infinity Phone, uma empresa especializada em desenvolvimento de software, oferecendo soluções digitais inovadoras para empresas de todos os portes.
 
