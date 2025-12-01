@@ -24,16 +24,18 @@ body {
     max-width: 1200px;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: center;  /* Centraliza os itens */
     align-items: center;
-    gap: 40px;
-    position: relative;
+    position: relative;       /* Permite posicionar a logo */
+    padding: 0 30px;
+}
+.logo {
+    position: absolute;
+    left: 30px;   /* Mantém no canto esquerdo */
 }
 
 .logo img {
     height: 55px;
-    position: absolute;
-    left: 30px;
 }
 
 .navbar {
