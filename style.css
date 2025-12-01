@@ -10,3 +10,43 @@ body {
     color: #eee;
     min-height: 100vh;
 }
+/* HEADER */
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: rgba(0,0,0,0.95);
+    padding: 15px 0;
+    z-index: 999;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+}
+
+.logo img {
+    height: 55px;
+    position: absolute;
+    left: 30px;
+}
+
+.navbar {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: .2s;
+}
+
+.navbar a:hover,
+.navbar a.active { color: #6cbbe9; }
