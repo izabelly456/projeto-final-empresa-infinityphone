@@ -6,10 +6,7 @@
     <title>Infinity Phone - Desenvolvimento de Software</title>
     <link rel="stylesheet" href="style.css" />
     <style>
-      /* Scroll suave */
-      html {
-        scroll-behavior: smooth;
-      }
+      html { scroll-behavior: smooth; }
     </style>
 </head>
 <body>
@@ -48,7 +45,6 @@
     </div>
 </section>
 
-
 <!-- SERVIÇOS -->
 <section class="catalogo" id="servicos">
     <h2 class="titulo-catalogo">Nossos Serviços</h2>
@@ -59,17 +55,20 @@
             <h3>Desenvolvimento Web</h3>
             <p>Criação de websites responsivos, aplicações web modernas e escaláveis.</p>
         </div>
+
         <div class="produto">
             <img src="imagens/Apps Mobile.png" alt="Apps Mobile" />
             <h3>Apps Mobile</h3>
             <p>Desenvolvimento de aplicativos para iOS e Android com alta performance.</p>
         </div>
-         <div class="produto">
+
+        <div class="produto">
             <img src="imagens/Consultoria de TI.jfif" alt="Consultoria de TI" />
             <h3>Consultoria de TI</h3>
             <p>Planejamento estratégico para inovação e transformação digital da sua empresa.</p>
         </div>
-                <div class="produto">
+
+        <div class="produto">
             <img src="imagens/Manutenção & Suporte.png" alt="Manutenção & Suporte" />
             <h3>Manutenção & Suporte</h3>
             <p>Suporte técnico contínuo para garantir a estabilidade e evolução do seu sistema.</p>
@@ -112,7 +111,8 @@
 
             <p>Av. República Argentina, 1902 - Água Verde<br>
                Curitiba - PR, 80620-010</p>
-                        <h3>Siga-nos</h3>
+
+            <h3>Siga-nos</h3>
 
             <div class="social-icons">
                 <a href="#"><img src="imagens/logo.email.jpg" alt="Email"></a>
@@ -122,37 +122,39 @@
                     <img src="imagens/logo.whatsapp.webp" alt="WhatsApp">
                 </a>
             </div>
-                <!-- BOTÃO WHATSAPP -->
+
             <a class="whatsapp-btn" href="https://chat.whatsapp.com/IjBHThaVvFwE3spfNCx9ic" target="_blank">
                 Conversar no WhatsApp
             </a>
         </div>
-                <!-- FORMULÁRIO -->
+
+        <!-- FORMULÁRIO -->
         <div class="contato-form">
             <h2>Formulário de Contato</h2>
 
-            <form>
-                <input type="text" placeholder="Digite seu nome" required>
-                <input type="email" placeholder="Digite seu email" required>
-                <textarea placeholder="Digite sua mensagem" required></textarea>
+            <form id="form-contato" onsubmit="enviarFormulario(event)">
+                <input type="text" name="nome" placeholder="Digite seu nome" required>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+                <textarea name="mensagem" placeholder="Digite sua mensagem" required></textarea>
                 <button type="submit">Enviar</button>
             </form>
+
         </div>
 
     </div>
 
 </section>
 
+<!-- SCRIPT em que vai enviar a mensagem ao topo da pagina -->
+<script>
+function enviarFormulario(event) {
+    event.preventDefault();
+
+    alert("Mensagem enviada com sucesso para o email: infinityphone@gmail.com!");
+
+    document.getElementById("form-contato").reset();
+}
+</script>
+
 </body>
 </html>
-    
-
-
-
-        
-
-
-
-
-       
-    
