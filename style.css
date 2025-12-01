@@ -205,3 +205,25 @@ body {
 
 .avaliacao-card p { margin-bottom: 15px; }
 
+/* SOBRE */
+.sobre {
+    padding: 100px 0;
+    text-align: center;
+    background: radial-gradient(circle,#002929,#001414);
+    color: #a7d9d9;
+}
+
+.titulo-sobre { font-size: 2.7rem; margin-bottom: 30px; }
+
+.conteudo-sobre {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.conteudo-sobre img {
+    width: 100%;
+    margin-top: 35px;
+    border-radius: 10px;
+}
+
