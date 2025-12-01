@@ -172,4 +172,36 @@ body {
     font-size: 1rem;
     color: #a7d9d9;
 }
+/* AVALIAÇÕES */
+.avaliacoes {
+    padding: 100px 0;
+    text-align: center;
+    background: #001b1b;
+}
+
+.titulo-avaliacoes {
+    font-size: 2.5rem;
+    margin-bottom: 45px;
+    color: #58e3e3;
+}
+
+.avaliacoes-container {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.avaliacao-card {
+    background: #012121;
+    width: 280px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #00d4ff50;
+    color: #c4e4e4;
+}
+
+.avaliacao-card p { margin-bottom: 15px; }
 
